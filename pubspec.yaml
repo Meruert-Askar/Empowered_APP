@@ -1,0 +1,32 @@
+name: empowered_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/welcome_illustration.png
+    - assets/images/circles.png
+    - assets/images/circles2.png
+    - assets/images/dots.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+          - asset: assets/fonts/Poppins-Bold.ttf
+          - asset: assets/fonts/Poppins-SemiBold.ttf
