@@ -65,10 +65,10 @@ class SplashScreen2 extends StatelessWidget {
                         color: const Color(0xFF1E3D3D),
                       ),
                     ),
-                    SizedBox(height: height * 0.03),
+                    SizedBox(height: height * 0.01),
 
                     Text(
-                      'Enjoy the various best courses we have, choose\n the category according to your wishes.',
+                      'Enjoy the various best courses we have, choose the category according to your wishes.',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontFamily: 'Regular',
